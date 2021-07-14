@@ -31,11 +31,14 @@ def join_ranks():
 
 
 
-print("May's Game version 1.0\nMingalarbar !\n")
+print("May's Game version 1.0\n")
 x = input("Would you like to play a game? yes/no: ")
 x = x.strip()
 
 if x == "yes":
+    playername = input("What is your name? ")
+    print("")
+    print("Mingalarbar,"+ playername+"!")
     print("")
     print("Type in 1 or 2 to continue.\n")
     answer1 = input(question1)
